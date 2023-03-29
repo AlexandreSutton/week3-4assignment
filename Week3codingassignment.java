@@ -100,7 +100,8 @@ public class Week3codingassignment {
 	public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket) {
 		return isHotOutside && (moneyInPocket > 10.50);
 	}
-	
+	// the method i went with was one i saw in an earlier class/lesson where you create a method to find a word
+	// and if it is there then its true so i replicated that method as i thought it was pretty cool that it could find it in the code.
 	public static boolean arrayContains(String[] arr, String word) {
 		for (String name: arr) {
 			if (name.equals(word)) {
